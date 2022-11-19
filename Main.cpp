@@ -7,10 +7,6 @@
 #include <string.h>
 #include <cstdlib>
 
-#include "OlderClasses/Admin.h"
-#include "OlderClasses/Customer.h"
-#include "OlderClasses/User.h"
-
 #include "Class/Staff.h"
 #include "Class/Student.h"
 #include "Class/Course.h"
@@ -23,11 +19,6 @@ using namespace std;
 
 int main()
 {
-    // Class Instances
-    User user;
-    Admin admin;
-    Customer customer;
-
     // H&AI
     Student student;
     Course course;
